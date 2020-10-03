@@ -24,6 +24,22 @@
     height: 200px;
     padding: 50px;
     font-size: 30px;
-    display: ;
+   
 
+  
+}
+#content > div:nth-child(1){
+    order: 0;
+}
+#content > div:nth-child(2){
+    order: 4;
+}
+#content > div:nth-child(3){
+    order: 0;
+}
+#content > div:nth-child(4){
+    order: 2;
+}
+#content > div:nth-child(5){
+    order: 0;
 }
